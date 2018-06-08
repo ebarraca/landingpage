@@ -1,0 +1,18 @@
+.navbar-dark {
+    background-color: black;
+    opacity: 0.9;
+    height: 15%;
+}
+
+.trilogylogo {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+
+#admissions{
+    color: red;
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+}
