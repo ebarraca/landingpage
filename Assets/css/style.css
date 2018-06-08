@@ -44,5 +44,71 @@ h1 {
 font-family: 'Roboto Slab', serif;
 margin-top: 0;
 
+}
+
+#coding-header {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #38bcdb;
+}
+
+#data-header {
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    color: #38bcdb;
+}
+
+.small-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: right;
+}
+
+hr {
+    color: #38bcdb;
+}
+
+.hero-right-text {
+    width: 20%;
+    float: right;
+}
+
+.card {
+    border-radius: 3px;
+    background-color: white;
+    opacity: 0.9;
+    position: absolute;
+    float: left;
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: 500;
+    text-align: center;
+}
+
+.step-1{
+font-family: 'Roboto', sans-serif;
+font-size: 10px;
+text-align: center;
+}
+
+.firstname {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.lastname {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.btn {
+    background-color: #38bcdb;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-style: 500;
+    width: auto;
+    padding: 4px;
 
 }
