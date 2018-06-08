@@ -11,8 +11,38 @@
 }
 
 #admissions{
-    color: red;
+    color: white;
     float: right;
     margin-right: 5%;
     text-align: right;
+    padding-top: 2%;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: #38bcdb;
+}
+
+.hero {
+    width: auto;
+    position: relative;
+    border: 1px red solid;
+}
+
+.learn-coding-div {
+    border: 1px solid red;
+    position: absolute;
+}
+
+h1 {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+#herosubhead {
+font-family: 'Roboto Slab', serif;
+margin-top: 0;
+
+
 }
