@@ -110,5 +110,69 @@ text-align: center;
     font-style: 500;
     width: auto;
     padding: 4px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+.feature-header{
+    text-align: center;
+}
+
+.phone {
+    width: 20%;
+}
+
+.feature-box {
+    width: auto;
+}
+.feature-text {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    width: 20%;
+}
+
+.icons {
+    width: 5%;
+    vertical-align: center;
+}
+
+.footnote {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+.our-story {
+    color: #38bcdb;
+    text-align: center;
+
+}
+
+.story-text {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.questions {
+    font-family: 'Roboto Slab', serif;
+}
+
+.footer-text {
+    text-align: right;
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    margin-right: 5%;
+    margin-top: 0;
+}
+.footer {
+    background-color: #38bcdb;
+    opacity: 0.9;
+
+}
+.trilogylogoblack {
+    margin-top: 5%;
+    width: 25%;
 
 }
