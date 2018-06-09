@@ -1,13 +1,14 @@
 .navbar-dark {
     background-color: black;
     opacity: 0.9;
-    height: 15%;
+    height: 118px;
 }
 
 .trilogylogo {
     width: 20%;
     margin-left: 5%;
     margin-top: 25px;
+    max-width: 260px;
 }
 
 #admissions{
@@ -22,17 +23,18 @@
 a {
     color: #38bcdb;
 }
-
-.hero {
-    width: auto;
-    position: relative;
-    border: 1px red solid;
-}
-
 .learn-coding-div {
     border: 1px solid red;
     position: absolute;
 }
+
+.hero {
+    background: url("../data_hero.jpg") no-repeat top center;
+    background-size: cover;
+    border: 1px blue solid;
+    min-height:380px;
+}
+
 
 h1 {
     color: red;
@@ -78,7 +80,8 @@ hr {
     background-color: white;
     opacity: 0.9;
     position: absolute;
-    float: left;
+    top: 260px;
+    left: 100px;
 }
 
 .card-title {
@@ -125,6 +128,8 @@ h2 {
 
 .feature-box {
     width: auto;
+    background: url("../featuring.jpg") no-repeat top center;
+    background-size: cover;
 }
 .feature-text {
     text-align: center;
@@ -132,7 +137,10 @@ h2 {
     font-size: 13px;
     width: 20%;
 }
-
+.feature-div {
+    position:absolute;
+    width: 300px; left:50%;
+}
 .icons {
     width: 5%;
     vertical-align: center;
@@ -175,4 +183,63 @@ h2 {
     margin-top: 5%;
     width: 25%;
 
+}
+
+/* MEDIA QUERY FOR MOBILE */
+
+@media only screen and (max-width: 640px) {
+ .navbar-dark {
+        height: auto;
+        text-align: center;
+    }
+.trilogylogo {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero {
+    height:auto;
+    min-height:0;
+}
+.card {
+    position: relative;
+    top: auto;
+    left: auto;
+}
+#admissions {
+    text-align: center;
+    margin: 0;
+    float:none;
+    font-size:12px;
+}
+.nomob {display: none !important;}
+.center_txt {text-align: center !important;}
+.hero-right-text {
+    width: 100%;
+    float:none;
+}
+.learn-coding-div {
+    position: relative;
+}
+.feature-div {
+    position:relative;
+    width: 100%; left:auto;
+}
+.feature-text {
+    width: 100%;
+}
+.icons {
+    text-align: center;
+    float: none;
+    display: block;
+    margin: 0 auto !important;
+    width:15%;
+}
+.phone {
+    text-align: center;
+    float: none;
+    display: block;
+    margin: 0 auto !important;
+    width:40%;
+}
 }
