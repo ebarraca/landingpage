@@ -24,22 +24,26 @@ a {
     color: #38bcdb;
 }
 .learn-coding-div {
-    border: 1px solid red;
     position: absolute;
+    width: 220px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
 }
 
 .hero {
     background: url("../data_hero.jpg") no-repeat top center;
     background-size: cover;
-    border: 1px blue solid;
     min-height:380px;
 }
 
 
 h1 {
-    color: red;
+    color: white;
     font-family: 'Roboto', sans-serif;
     margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
 }
 
 #herosubhead {
@@ -57,22 +61,35 @@ margin-top: 0;
 #data-header {
     text-align: right;
     font-family: 'Roboto', sans-serif;
-    color: #38bcdb;
+    color: white;
+
 }
 
 .small-text {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     text-align: right;
+    margin-top:0;
+    color:white;
 }
 
-hr {
-    color: #38bcdb;
+#codingHR {
+    border-top: 5px solid #38bcdb;
+}
+
+#dataHR {
+    border-top: 4px solid white;
 }
 
 .hero-right-text {
+    margin-right: 45;
+    margin-top: 30;
     width: 20%;
     float: right;
+}
+
+h4 {
+    margin-bottom: 0;
 }
 
 .card {
@@ -80,39 +97,66 @@ hr {
     background-color: white;
     opacity: 0.9;
     position: absolute;
-    top: 260px;
-    left: 100px;
+    top: 300px;
+    left: 50px;
+    height: auto;
+
 }
 
 .card-title {
+    margin-top: 10;
     font-family: 'Roboto', sans-serif;
     font-style: 500;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .step-1{
-font-family: 'Roboto', sans-serif;
-font-size: 10px;
-text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5;
+}
+.names {
+    margin-top: 0;
 }
 
 .firstname {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    display: block;
+    float:left;
+    text-align: center;
+    margin-left: 40px;
+    margin-top:0;
 }
 
 .lastname {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    display: block;
+    float:right;
+    text-align: center;
+    margin-right: 85px;
+    margin-top; 0;
+
+
+
 }
 
-.btn {
+.buttonDiv {
     background-color: #38bcdb;
     color:white;
     font-family: 'Roboto', sans-serif;
     font-style: 500;
-    width: auto;
-    padding: 4px;
+    width: 270px;
+    padding: 3px;
+    margin-top: 50px;
+    margin-left: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -120,10 +164,12 @@ h2 {
 }
 .feature-header{
     text-align: center;
+    color: white;
+
 }
 
 .phone {
-    width: 20%;
+    width: 78%;
 }
 
 .feature-box {
@@ -137,9 +183,20 @@ h2 {
     font-size: 13px;
     width: 20%;
 }
+
 .feature-div {
     position:absolute;
     width: 300px; left:50%;
+}
+
+#feature-left {
+    display: block;
+    float: left;
+}
+
+#feature-right {
+    display: block;
+    float: right;
 }
 .icons {
     width: 5%;
@@ -191,6 +248,7 @@ h2 {
  .navbar-dark {
         height: auto;
         text-align: center;
+        margin-bottom: 0;
     }
 .trilogylogo {
     width: 60%;
@@ -206,6 +264,15 @@ h2 {
     top: auto;
     left: auto;
 }
+h4 {
+    text-align: center;
+    width: auto;
+}
+
+buttonDiv{
+    width: auto;
+}
+
 #admissions {
     text-align: center;
     margin: 0;
@@ -214,12 +281,16 @@ h2 {
 }
 .nomob {display: none !important;}
 .center_txt {text-align: center !important;}
+
 .hero-right-text {
     width: 100%;
     float:none;
+    margin-top: 30px;
+    margin-bottom: 0;
 }
 .learn-coding-div {
     position: relative;
+    margin-bottom: 40;
 }
 .feature-div {
     position:relative;

@@ -14,7 +14,7 @@
 
     <nav class="navbar-dark">
 
-        <p id="admissions"> To speak with an <br>admissions advisor call
+        <p id="admissions"> To speak with an admissions advisor call
         <a>(555) 123-4567</a></p>
         <img class="img-fluid trilogylogo" src="assets/logos/logo_trilogy.svg" alt="trilogy logo">
     </nav>
@@ -24,15 +24,16 @@
             <h1 class="center_txt"> Learn Coding in 24 Weeks</h1>
             <p id="herosubhead" class="center_txt"> Class starts May 15, 2018</p>
         </div>
+
         <div class= "hero-right-text">
             <div>
                 <h4 id="coding-header" class="nomob">CODING</h4>
-                <p class="small-text center_txt">Coding Boot Camp eqiups students skills for full-stack web development through dynamic, in-person classes.<hr class="nomob">
+                <p class="small-text center_txt">Coding Boot Camp eqiups students skills for full-stack web development through dynamic, in-person classes.<hr class="nomob" id="codingHR">
             </div>
             <div>
                 <h4 id="data-header" class="nomob"> DATA ANALYTICS </h4>
                 <p class="small-text nomob"> Data Boot Camp equips students with the key skills for full-stack web development through dynamic, in-person classes.
-                <hr class="nomob">
+                <hr class="nomob" id="dataHR">
             </div>
     </div>
 
@@ -42,18 +43,27 @@
 
 
     <div class="card" style="width: 18rem;">
+
       <div class="card-body">
           <h4 class="card-title">GET PROGRAM INFO</h5>
           <p class="step-1"> Step 1 of 3 </p>
-          <div class="firstname">
-              <p> First name </p> <hr> </hr>
-          </div>
-          <div>
-          <p class="lastname"> Last name </p> <hr> </hr>
-          </div>
+          <div class="names">
+              <div class="firstname">
+                  <p> First name </p>
+              </div>
+
+              <div>
+              <p class="lastname"> Last name </p>
+              </div>
+         </div>
+        <div class="buttonDiv"
         <a href="#" class="btn btn-primary">CONTINUE</a>
+        </div>
       </div>
+
     </div>
+
+    
 
     <div class="feature-box">
         <div class="feature-div">
@@ -61,24 +71,22 @@
             <img class="phone" src="assets/phone.png" alt="phone">
         </div>
 
-        <div style="float:left;">
+        <div style="float:left;" id="feature-left">
             <img class="img-fluid icons" src="assets/icons/data-coding.svg" alt="data-coding icon">
             <p class = "feature-text">Learn Advanced Excel, Python, JavaScript (D3.js, Leaflet.js), HTML5/CSS, API Interactions, Social Media Mining, SQL, Tableau, Advanced Statistics, Machine Learning, R, Git/GitHub, and more.* </p>
-        </div>
 
-        <div style="float:right;">
             <img class="img-fluid icons" src="assets/icons/benefit.svg" alt="benefiticon">
             <p class = "feature-text">Benefit from a wide range of career services to position you for success as you work to adance in your current career or seek a new opportunity. </p>
+
         </div>
 
-        <div>
-            <img class="img-fluid icons" src="assets/icons/time.svg" alt="time icon">
-            <p class = "feature-text">Study part-time, three days a week, while maintaining your work schedule. </p>
-        </div>
+        <div style="float:right;" id="feature-right">
 
-        <div>
             <img class="img-fluid icons" src="assets/icons/complete_proj.svg" alt="project icon">
             <p class = "feature-text">Complete projects using real data sets from the worlds of finance, healthcare, government, social welfare, and more—allowing you to build a strong portfolio with a professional demonstration. </p>
+
+            <img class="img-fluid icons" src="assets/icons/time.svg" alt="time icon">
+            <p class = "feature-text">Study part-time, three days a week, while maintaining your work schedule. </p>
         </div>
 
         <p class="footnote"> The material covered in this course is subject to change due to market demand.</p>
