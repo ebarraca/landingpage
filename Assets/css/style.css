@@ -280,13 +280,32 @@ h2 {
     padding-right: 150px;
     padding-left: 150px;
     padding-bottom: 40px;
-
 }
 
-.btn {
+.question {
     color: black;
+    padding-left: 70px;
+    font-size: 14px;
+    background-color: transparent;
 }
 
+i {
+    color: #38bcdb;
+}
+
+
+
+.FAQ-header {
+    text-align: left;
+    margin-left: 0px;
+    width: 500px;
+    padding-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+    border-bottom: 1px solid black;
+
+}
 .questions {
     font-family: 'Roboto Slab', serif;
 }
@@ -297,7 +316,16 @@ h2 {
     min-height:380px;
 }
 
-.card-header, .card-body {
+.card-body-question {
+    color: black;
+    padding-left: 90px;
+    font-size: 14px;
+    background-color: transparent;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.card-header, .card-body-question {
     font-family: 'Roboto Slab', serif;
 }
 
@@ -470,9 +498,26 @@ h1 {
     width: 180px;
 }
 
+.FAQ-header {
+    text-align: left;
+    padding-left: 20px;
+    font-size: 40px;
+
+
+}
+
 
 #accordionExample {
     margin-left: 30px;
+}
+
+.card-body-question {
+    padding-left: 30px;
+}
+
+.question {
+    padding-left: 20px;
+    text-align: left;
 }
 
 .footer-text {
