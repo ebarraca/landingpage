@@ -35,6 +35,7 @@ a {
     color: white;
     margin-top: 30px;
     margin-left: 50px;
+
 }
 
 .hero {
@@ -124,7 +125,8 @@ h4 {
     margin-top: 5;
 }
 .names {
-    margin-top: 0;
+    margin-top: 0px;;
+    margin-bottom: 0px;
 }
 
 .firstname {
@@ -172,6 +174,9 @@ h4 {
     color: white !important;
     background-color: #38bcdb;
     width: 260px;
+    font-size: 18px;
+    padding: 0;
+    font-weight: 500;
 
 
 }
@@ -230,6 +235,7 @@ h2 {
 .phone {
     max-width: 200px;
     vertical-align: center;
+    margin-bottom: 10px;
 }
 
 .footnote {
@@ -262,6 +268,8 @@ h2 {
 .our-story {
     color: #38bcdb;
     text-align: center !important;
+    border-bottom: 1px solid #38bcdb;
+
 }
 
 .story-text {
@@ -331,6 +339,9 @@ h2 {
     height:auto;
     min-height:0;
 }
+
+
+
 .signup {
     position: relative;
     top: auto;
@@ -375,6 +386,20 @@ h4 {
 	margin-left: 0px;
 	width:100%;
 	padding:30px 0px 0px 0px;
+
+    /* .learn-coding-div {
+        border-bottom: 4px solid #38bcdb;
+        width: 70%;
+        padding-left: 39px;
+    } */
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#herosubhead {
+    font-size: 20px;
 }
 
 #fname, #lname {
@@ -391,27 +416,34 @@ h4 {
 .step-1 {
     font-size: 15px;
 }
+.feature-header {
+    font-size: 40px;
+    width: 170px;
 
+}
 .feature-div {
     position:relative;
     width: 100%; left:auto;
 }
 .feature-text {
     width: 100%;
+    font-size: 16px;
 }
 .icons {
     text-align: center;
     float: none;
     display: block;
     margin: 0 auto !important;
-    width:15%;
+    max-width: 88px;
+    padding-bottom: 16px;
 }
+
 .phone {
     text-align: center;
     float: none;
     display: block;
     margin: 0 auto !important;
-    width:20%;
+    width:35%;
 }
 
 #left-column, #right-column {
@@ -434,7 +466,10 @@ h4 {
 
 .our-story {
     text-align: center;
+    font-size: 40px;
+    width: 180px;
 }
+
 
 #accordionExample {
     margin-left: 30px;
@@ -453,6 +488,13 @@ h4 {
     width: 55%;
     display: block;
     padding-top: 30px;
+}
+
+.footnote {
+    font-size: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
 }
 
 }
