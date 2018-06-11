@@ -173,8 +173,9 @@ h2 {
 }
 
 .feature-container{
-background: url("../featuring.jpg") no-repeat top center;
-position: relative;
+    background: url("../featuring.jpg") no-repeat top center;
+    position: relative;
+    background-size: cover;
 }
 
 #left-column {
@@ -231,75 +232,55 @@ position: relative;
 
 }
 
-
-
-/* .feature-header{
-    text-align: center;
-    color: white;
-}
-
-.phone {
-    width: 78%;
-}
-
-.feature-box {
+.story {
+    background: url("../about.jpg") no-repeat top center;
     width: auto;
-    background: url("../featuring.jpg") no-repeat top center;
     background-size: cover;
 }
-.feature-text {
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    font-size: 13px;
-    width: 20%;
-}
-
-.feature-div {
-    position:absolute;
-    width: 300px; left:50%;
-}
-
-#feature-left {
-    display: block;
-    float: left;
-}
-
-#feature-right {
-    display: block;
-    float: right;
-}
-.icons {
-    width: 5%;
-    vertical-align: center;
-}
-
-.footnote {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-} */
 
 .our-story {
     color: #38bcdb;
-    text-align: center;
-
+    text-align: center !important;
 }
 
 .story-text {
     font-family: 'Roboto Slab', serif;
     text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+
+}
+
+.btn {
+    color: black;
 }
 
 .questions {
     font-family: 'Roboto Slab', serif;
 }
 
+#accordion {
+    background: url("../faq.jpg") no-repeat top center;
+    background-size: cover;
+    min-height:380px;
+}
+
+.card-header, .card-body {
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
 .footer-text {
     text-align: right;
     font-family: 'Roboto Slab', serif;
     font-size: 12px;
-    margin-right: 5%;
+    margin-right: 20px;
     margin-top: 0;
+    margin-bottom: 140px;
 }
 .footer {
     background-color: #38bcdb;
@@ -388,12 +369,31 @@ buttonDiv{
     float: none;
     display: block;
     width: 100%;
+    margin-left: 30px;
+    margin-right: 50px;
 }
 
 #featuring {
     display: block;
 	width: 100%;
 	text-align:center;
+}
+
+.story-text {
+    padding: 20px;
+}
+
+.our-story {
+    text-align: center;
+}
+
+#accordion {
+    background: url("../fap_mobile.jpg") no-repeat top center;
+    width: auto;
+    margin-left: 30px;
+
+
+
 }
 
 }
