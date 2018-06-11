@@ -39,7 +39,7 @@ a {
 }
 
 .hero {
-    background: url("https://enigmatic-springs-47266.herokuapp.com/Assets/data_hero.jpg") no-repeat top center;
+    background: url("../data_hero.jpg") no-repeat top center;
     background-size: cover;
     min-height: 380px;
 }
@@ -204,7 +204,7 @@ h2 {
 }
 
 .feature-container {
-    background: url("https://enigmatic-springs-47266.herokuapp.com/Assets/featuring.jpg") no-repeat top center;
+    background: url("../featuring.jpg") no-repeat top center;
     position: relative;
     background-size: cover;
 }
@@ -266,7 +266,7 @@ h2 {
 }
 
 .story {
-    background: url("https://enigmatic-springs-47266.herokuapp.com/Assets/about.jpg") no-repeat top center;
+    background: url("../about.jpg") no-repeat top center;
     width: auto;
     background-size: cover;
     padding: 60px 30px;
@@ -323,7 +323,7 @@ i {
 }
 
 #accordion {
-    background: url("https://enigmatic-springs-47266.herokuapp.com/Assets/faq.jpg") no-repeat top center;
+    background: url("../faq.jpg") no-repeat top center;
     background-size: cover;
     min-height: 380px;
 }
@@ -360,6 +360,7 @@ i {
     margin: 20px;
     width: 25%;
 }
+
 
 /* MEDIA QUERY FOR MOBILE */
 
