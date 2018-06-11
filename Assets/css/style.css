@@ -177,11 +177,18 @@ h4 {
     font-size: 18px;
     padding: 0;
     font-weight: 500;
-
-
 }
+
 .btn:hover {
     background-color: #2e91a3;
+}
+
+#white-chevron {
+    color: white;
+}
+
+.fa-chevron-circle-down {
+    color: black;
 }
 
 h2 {
@@ -287,25 +294,23 @@ h2 {
     padding-left: 70px;
     font-size: 14px;
     background-color: transparent;
+	border: 0;
 }
 
 i {
     color: #38bcdb;
 }
 
-
-
 .FAQ-header {
     text-align: left;
-    margin-left: 0px;
-    width: 500px;
-    padding-left: 120px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 372px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: black;
     border-bottom: 1px solid black;
-
 }
+
 .questions {
     font-family: 'Roboto Slab', serif;
 }
@@ -350,6 +355,8 @@ i {
     width: 25%;
 }
 
+
+
 /* MEDIA QUERY FOR MOBILE */
 
 @media only screen and (max-width: 640px) {
@@ -368,7 +375,18 @@ i {
     min-height:0;
 }
 
+.card-body-question {
+    padding-left: 20px;
+}
 
+.question {
+    text-align: left;
+    display: flex;
+}
+
+.fa, .fas {
+    margin-right: 6px;
+}
 
 .signup {
     position: relative;
@@ -498,26 +516,30 @@ h1 {
     width: 180px;
 }
 
-.FAQ-header {
-    text-align: left;
-    padding-left: 20px;
-    font-size: 40px;
-
-
-}
-
-
-#accordionExample {
-    margin-left: 30px;
-}
-
 .card-body-question {
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 .question {
-    padding-left: 20px;
+    padding-left: 0px;
     text-align: left;
+    display: flex;
+}
+
+.fa, .fas {
+    margin-right: 6px;
+}
+
+.FAQ-header {
+    text-align: center !important;
+    margin: 30px 0px 10px !important;
+    width: 90%;
+    font-size: 20px !important;
+}
+
+#accordionExample {
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .footer-text {
@@ -526,6 +548,9 @@ h1 {
     margin: 0;
     text-align: center;
     padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    l
 	}
 
 .trilogylogoblack {
@@ -540,6 +565,10 @@ h1 {
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
+}
+
+.chevron-circle-down {
+    color: black;
 }
 
 }
