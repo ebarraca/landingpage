@@ -1,7 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-	margin:0;
+    margin: 0;
 }
 
 .navbar-dark {
@@ -17,7 +17,7 @@ html, body {
     max-width: 260px;
 }
 
-#admissions{
+#admissions {
     color: white;
     float: right;
     margin-right: 5%;
@@ -29,21 +29,20 @@ html, body {
 a {
     color: #38bcdb;
 }
+
 .learn-coding-div {
     position: absolute;
     width: 220px;
     color: white;
     margin-top: 30px;
     margin-left: 50px;
-
 }
 
 .hero {
     background: url("../data_hero.jpg") no-repeat top center;
     background-size: cover;
-    min-height:380px;
+    min-height: 380px;
 }
-
 
 h1 {
     color: white;
@@ -54,9 +53,8 @@ h1 {
 }
 
 #herosubhead {
-font-family: 'Roboto Slab', serif;
-margin-top: 0;
-
+    font-family: 'Roboto Slab', serif;
+    margin-top: 0;
 }
 
 #coding-header {
@@ -69,15 +67,14 @@ margin-top: 0;
     text-align: right;
     font-family: 'Roboto', sans-serif;
     color: white;
-
 }
 
 .small-text {
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     text-align: right;
-    margin-top:0;
-    color:white;
+    margin-top: 0;
+    color: white;
 }
 
 #codingHR {
@@ -118,14 +115,16 @@ h4 {
     margin-bottom: 5px;
 }
 
-.step-1{
+.step-1 {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     text-align: center;
     margin-top: 5;
 }
+
 .names {
-    margin-top: 0px;;
+    margin-top: 0px;
+    ;
     margin-bottom: 0px;
 }
 
@@ -133,32 +132,33 @@ h4 {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     display: block;
-    float:left;
+    float: left;
     text-align: center;
-    margin-top:0;
-	width:123px;
-	margin-left:5px;
+    margin-top: 0;
+    width: 123px;
+    margin-left: 5px;
 }
 
 .lastname {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     display: block;
-    float:right;
+    float: right;
     text-align: center;
     margin-top: 0;
-	width:123px;
-	margin-right:5px;
+    width: 123px;
+    margin-right: 5px;
 }
+
 #fname, #lname {
     border-bottom: 2px solid black;
     border-width: 0 0 2px 0;
-	width: 123px;
+    width: 123px;
     text-align: center;
 }
 
 .buttonDiv {
-    color:white;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-style: 500;
     padding: 3px;
@@ -168,7 +168,6 @@ h4 {
     font-weight: 500;
     letter-spacing: 1px;
 }
-
 
 .btn {
     color: white !important;
@@ -197,12 +196,14 @@ h2 {
     border-bottom: 1px solid white;
     width: 130px;
     text-align: center;
-	margin:0px auto;
+    margin: 0px auto;
 }
 
-.feature-container h2 {margin: 30px auto 20px;}
+.feature-container h2 {
+    margin: 30px auto 20px;
+}
 
-.feature-container{
+.feature-container {
     background: url("../featuring.jpg") no-repeat top center;
     position: relative;
     background-size: cover;
@@ -212,7 +213,7 @@ h2 {
     float: left;
     display: inline-block;
     width: 40%;
-	text-align:center;
+    text-align: center;
     margin-top: 40px;
     padding-left: 100px;
     padding-right: 100px;
@@ -230,8 +231,8 @@ h2 {
 
 #featuring {
     display: inline-block;
-	width: 20%;
-	text-align:center;
+    width: 20%;
+    text-align: center;
 }
 
 .icons {
@@ -250,7 +251,7 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     color: white;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .feature-text {
@@ -262,21 +263,19 @@ h2 {
 
 .icons {
     margin-bottom: 10px;
-
 }
 
 .story {
     background: url("../about.jpg") no-repeat top center;
     width: auto;
     background-size: cover;
-	padding:60px 30px;
+    padding: 60px 30px;
 }
 
 .our-story {
     color: #38bcdb;
     text-align: center !important;
     border-bottom: 1px solid #38bcdb;
-
 }
 
 .story-text {
@@ -294,7 +293,15 @@ h2 {
     padding-left: 70px;
     font-size: 14px;
     background-color: transparent;
-	border: 0;
+    border: 0;
+}
+
+#headingOne, #headingTwo, #headingThree, #headingFour, #headingFive, #headingSix {
+    padding: 0px;
+}
+
+.panel-heading {
+    padding-bottom: 0px !important;
 }
 
 i {
@@ -318,7 +325,7 @@ i {
 #accordion {
     background: url("../faq.jpg") no-repeat top center;
     background-size: cover;
-    min-height:380px;
+    min-height: 380px;
 }
 
 .card-body-question {
@@ -327,7 +334,6 @@ i {
     font-size: 14px;
     background-color: transparent;
     font-family: 'Roboto Slab', serif;
-
 }
 
 .card-header, .card-body-question {
@@ -348,227 +354,201 @@ i {
 .footer {
     background-color: #38bcdb;
     opacity: 0.9;
-
 }
+
 .trilogylogoblack {
     margin: 20px;
     width: 25%;
 }
 
-
-
 /* MEDIA QUERY FOR MOBILE */
 
 @media only screen and (max-width: 640px) {
- .navbar-dark {
+    .navbar-dark {
         height: auto;
         text-align: center;
         margin-bottom: 0;
     }
-.trilogylogo {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.hero {
-    height:auto;
-    min-height:0;
-}
-
-.card-body-question {
-    padding-left: 20px;
-}
-
-.question {
-    text-align: left;
-    display: flex;
-}
-
-.fa, .fas {
-    margin-right: 6px;
-}
-
-.signup {
-    position: relative;
-    top: auto;
-    left: auto;
-	width: 100% !important;
-	padding:20px;
-}
-h1 {
-    font-size:1.5em;
-}
-h4 {
-    text-align: center;
-    width: auto;
-}
-.small-text {
-    padding: 30px;
-    font-size: 18px;
-}
-.buttonDiv{
-    width: auto;
-}
-
-#admissions {
-    text-align: center;
-    margin: 0;
-    float:none;
-    font-size:12px;
-}
-.nomob {display: none !important;}
-.center_txt {text-align: center !important;}
-
-.hero-right-text {
-    width: 100%;
-    float:none;
-    margin-top: 30px;
-    margin-bottom: 0;
-}
-.learn-coding-div {
-    position: relative;
-    margin-bottom: 40px;
-	margin-top: 0px;
-	margin-left: 0px;
-	width:100%;
-	padding:30px 0px 0px 0px;
-
-    /* .learn-coding-div {
+    .trilogylogo {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero {
+        height: auto;
+        min-height: 0;
+    }
+    .card-body-question {
+        padding-left: 20px;
+    }
+    .question {
+        text-align: left;
+        display: flex;
+    }
+    .fa, .fas {
+        margin-right: 6px;
+    }
+    .signup {
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100% !important;
+        padding: 20px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h4 {
+        text-align: center;
+        width: auto;
+    }
+    .small-text {
+        padding: 30px;
+        font-size: 18px;
+    }
+    .buttonDiv {
+        width: auto;
+    }
+    #admissions {
+        text-align: center;
+        margin: 0;
+        float: none;
+        font-size: 12px;
+    }
+    .nomob {
+        display: none !important;
+    }
+    .center_txt {
+        text-align: center !important;
+    }
+    .hero-right-text {
+        width: 100%;
+        float: none;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .learn-coding-div {
+        position: relative;
+        margin-bottom: 40px;
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        padding: 30px 0px 0px 0px;
+        /* .learn-coding-div {
         border-bottom: 4px solid #38bcdb;
         width: 70%;
         padding-left: 39px;
     } */
-}
-
-h1 {
-    font-size: 30px;
-}
-
-#herosubhead {
-    font-size: 20px;
-}
-
-#fname, #lname {
-    font-size: 16px;
-    text-align: center;
-    color: black;
-}
-
-
-.card-title {
-    font-size: 30px;
-}
-
-.step-1 {
-    font-size: 15px;
-}
-.feature-header {
-    font-size: 40px;
-    width: 170px;
-
-}
-.feature-div {
-    position:relative;
-    width: 100%; left:auto;
-}
-.feature-text {
-    width: 100%;
-    font-size: 16px;
-}
-.icons {
-    text-align: center;
-    float: none;
-    display: block;
-    margin: 0 auto !important;
-    max-width: 88px;
-    padding-bottom: 16px;
-}
-
-.phone {
-    text-align: center;
-    float: none;
-    display: block;
-    margin: 0 auto !important;
-    width:35%;
-}
-
-#left-column, #right-column {
-    float: none;
-    display: block;
-    width: 100%;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#featuring {
-    display: block;
-	width: 100%;
-	text-align:center;
-}
-
-.story-text {
-    padding: 20px;
-}
-
-.our-story {
-    text-align: center;
-    font-size: 40px;
-    width: 180px;
-}
-
-.card-body-question {
-    padding-left: 20px;
-}
-
-.question {
-    padding-left: 0px;
-    text-align: left;
-    display: flex;
-}
-
-.fa, .fas {
-    margin-right: 6px;
-}
-
-.FAQ-header {
-    text-align: center !important;
-    margin: 30px 0px 10px !important;
-    width: 90%;
-    font-size: 20px !important;
-}
-
-#accordionExample {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.footer-text {
-	width: 100%;
-    float: none;
-    margin: 0;
-    text-align: center;
-    padding-bottom: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    l
-	}
-
-.trilogylogoblack {
-    margin: 0px auto 20px;
-    width: 55%;
-    display: block;
-    padding-top: 30px;
-}
-
-.footnote {
-    font-size: 14px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-}
-
-.chevron-circle-down {
-    color: black;
-}
-
+    }
+    h1 {
+        font-size: 30px;
+    }
+    #herosubhead {
+        font-size: 20px;
+    }
+    #fname, #lname {
+        font-size: 16px;
+        text-align: center;
+        color: black;
+    }
+    .card-title {
+        font-size: 30px;
+    }
+    .step-1 {
+        font-size: 15px;
+    }
+    .feature-header {
+        font-size: 40px;
+        width: 170px;
+    }
+    .feature-div {
+        position: relative;
+        width: 100%;
+        left: auto;
+    }
+    .feature-text {
+        width: 100%;
+        font-size: 16px;
+    }
+    .icons {
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 0 auto !important;
+        max-width: 88px;
+        padding-bottom: 16px;
+    }
+    .phone {
+        text-align: center;
+        float: none;
+        display: block;
+        margin: 0 auto !important;
+        width: 35%;
+    }
+    #left-column, #right-column {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #featuring {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .story-text {
+        padding: 20px;
+    }
+    .our-story {
+        text-align: center;
+        font-size: 40px;
+        width: 180px;
+    }
+    .card-body-question {
+        padding-left: 20px;
+    }
+    .question {
+        padding-left: 0px;
+        text-align: left;
+        display: flex;
+    }
+    .fa, .fas {
+        margin-right: 6px;
+    }
+    .FAQ-header {
+        text-align: center !important;
+        margin: 30px 0px 10px !important;
+        width: 90%;
+        font-size: 20px !important;
+    }
+    #accordionExample {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .footer-text {
+        width: 100%;
+        float: none;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        l
+    }
+    .trilogylogoblack {
+        margin: 0px auto 20px;
+        width: 55%;
+        display: block;
+        padding-top: 30px;
+    }
+    .footnote {
+        font-size: 14px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+    .chevron-circle-down {
+        color: black;
+    }
 }
